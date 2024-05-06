@@ -1,0 +1,26 @@
+time:
+  # In Vanilla: entire day in normal minecraft is 20 minutes
+  spring:
+    # Length of day time, in real world minutes
+    dayLength: 20
+    nightLength: 20
+  summer:
+    dayLength: 30
+    nightLength: 10
+  fall:
+    dayLength: 20
+    nightLength: 20
+  winter:
+    dayLength: 14
+    nightLength: 26
+
+# Seasons Progression
+progression:
+  # Should season progression be paused? Set to true to pause
+  paused: false
+
+calendar:
+  # How many days should one season last
+  seasonDays: 63
+  # How many days should it take to transition between seasons?
+  transitionDays: 20
