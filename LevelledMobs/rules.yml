@@ -336,8 +336,8 @@ default-rule:
     #- nametag_using_indicator
     #- nametag_no_level
     #- vanilla_challenge
-    #- basic_challenge
-    - average_challenge
+    - basic_challenge
+    #- average_challenge
     #- advanced_challenge
     #- extreme_challenge
     #- weighted_random_Levelling
@@ -346,7 +346,7 @@ default-rule:
     #- ycoord_Levelling
     #- random_Levelling
     - lvl-mod_player-variable
-    - lvl-mod_apply-variance
+    #- lvl-mod_apply-variance
 
 
   conditions:
